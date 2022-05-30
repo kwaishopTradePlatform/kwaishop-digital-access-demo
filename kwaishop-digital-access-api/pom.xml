@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>kwaishop-digital-access-demo</artifactId>
+        <groupId>kwaishop</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>kwaishop-digital-access-common-api</module>
+        <module>kwaishop-digital-access-solution-a-api</module>
+        <module>kwaishop-digital-access-solution-b-api</module>
+        <module>kwaishop-digital-access-solution-c-api</module>
+    </modules>
+
+    <artifactId>kwaishop-digital-access-api</artifactId>
+    <packaging>pom</packaging>
+
+
+</project>
